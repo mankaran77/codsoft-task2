@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #9ADAE6;
+}
+.header{
+    background-position: right;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../portfolio/IMAGES/back.png) ;
+}
+.navbar img{
+    height: 20vh;
+    width: 17vw;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 5px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    list-style: none;
+    margin: 40px ;
+}
+.navbar ul li a{
+    color: black;
+    /* font-size: 40px; */
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #9ADAE6 ;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.header h1{
+    font-size: 7vh;
+    padding: 100px;
+    margin: 100px;
+}
+.about{
+    padding: 60px 0px;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutcol1{
+    flex-basis: 30%;
+}
+.aboutcol1 img{
+    width: 100%;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 10px solid black ;
+}
+.aboutcol2{
+    flex-basis: 40%;
+}
+.title{
+    color: black;
+    font-size: 40px;
+    width: 100%;
+}
+footer{
+    background-color: black; 
+    height: max-content;
+    text-align: center; 
+    color: white;
+    margin: 20px;
+  }
+  .skills{
+    text-align: center;
+  }
+  .skillscontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+  
+  .col{
+    flex-basis: 30%;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
+    height: 350px;
+    transition: 1s;
+    }
+    .col:hover{
+        transform: scale(1.2);
+
+    }
+  
+  .col span{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .containerproject{
+    height: fit-content;
+   
+    width: 100vw;
+    background-color: bisque;
+    border-radius: 50px;
+  }
+  .project h1{
+    
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .project h2{
+    color: #8a0974;
+    font-size: 30px;
+    font-weight: 600;
+
+  }
+  .col1{
+
+    margin-top: 30vh;
+    text-align: center;
+    flex-basis: 40%;
+  }
+  .col2{
+    flex-basis: 40%;
+  }
+  .col2 img{
+    margin-top: 40px;
+
+    width: 100%;
+  }
+
+  .row1{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  } 
+   
+  .row2{
+    background-color: rgb(74, 87, 87);
+    color: white;
+    margin: 15px;
+  }
+  
